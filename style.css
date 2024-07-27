@@ -1,6 +1,6 @@
 *{margin: 0;padding: 0;}
 
-html,body,div,table,td,th,ul,li,p,a{ font-size: 0.7rem; color:#333333;font-family: "寰蒋闆呴粦", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+html,body,div,table,td,th,ul,li,p,a{ font-size: 0.7rem; color:#333333;font-family: "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 ul,li{list-style: none;}
 
@@ -18,7 +18,7 @@ em{font-style: normal;}
 
 
 
-/*瀛椾綋棰滆壊*/
+/*字体颜色*/
 
 .s-green{color:#2fbaa5;}
 
@@ -26,7 +26,7 @@ em{font-style: normal;}
 
 
 
-/* 鏍囬1*/
+/* 标题1*/
 
 .m-tit{line-height: 1.4rem;color:#33ba9f;font-size: 0.6rem;font-weight: normal;}
 
@@ -42,7 +42,7 @@ em{font-style: normal;}
 
 /*--------------------------------------------------------------*/
 
-/* 鑰冪敓鍥剧墖 */
+/* 考生图片 */
 
 .m-img{width:100%;height:4.5rem;overflow: hidden;}
 
@@ -52,7 +52,7 @@ em{font-style: normal;}
 
 .m-lq-tite{width: 100%; font-size: 0.8rem;line-height: 1.52rem;background: #32bb9f;color:#fff;text-align: center;font-weight: normal;}
 
-/*鑰冪敓涓汉淇℃伅*/
+/*考生个人信息*/
 
 .m-info,.m-notice{width: 93%;margin: 0 auto;overflow: hidden;}
 
@@ -64,7 +64,7 @@ em{font-style: normal;}
 
 .m-info li a{text-decoration: underline;color:#2fbaa5;cursor: default;}
 
-/* 琛ㄦ牸 */
+/* 表格 */
 
 .m-box-table{width: 93%;margin: 0 auto;background: #fff;border-top: 1px solid #cccccc;border-left: 1px solid #cccccc;}
 
@@ -74,7 +74,7 @@ em{font-style: normal;}
 
 .m-box-table td:first-child{width:20%;}
 
-/*璇存槑*/
+/*说明*/
 
 .m-notice{margin-top: 0.2rem;}
 
@@ -82,8 +82,9 @@ em{font-style: normal;}
 
 /*-----------------------------------------------------------------*/
 
-/*搴曢儴*/
+/*底部*/
 
 .line{width: 100%;height: 1px;background-color: #dddddd;margin:0.5rem 0 0.3rem;}
 
 .m-footer{width: 100%;text-align: center;font-size: 0.5rem;color:#444444;}
+
