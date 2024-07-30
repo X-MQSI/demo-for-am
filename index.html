@@ -1,137 +1,105 @@
 <!DOCTYPE html>
-
 <html>
 
-	<head>
+<head>
+    <meta charset="UTF-8">
+    <title>2024年海南省普通高考录取状态</title>
+    <meta name="format-dection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+        function promptUser() {
+            var schoolName = prompt("请输入院校名称:");
+            var majorName = prompt("请输入专业名称:");
+            if (schoolName != null && majorName != null) {
+                document.getElementById("schoolName").innerHTML = schoolName;
+                document.getElementById("majorName").innerHTML = majorName;
+            }
+        }
+    </script>
+    <!--Microsoft clarity-->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "f4serx3lgw");
+    </script>
+    <!--Microsoft clarity-->
 
-		<meta charset="UTF-8">
+    <!--Google analytics-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YY3SD8KDP7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-		<title>2024年海南省普通高考录取状态</title>
+        gtag('config', 'G-YY3SD8KDP7');
+    </script>
+    <!--Google analytics-->
+</head>
 
-        <meta name="format-dection" content="telephone=no"/>
+<body onload="promptUser()">
+    <!-- banner -->
+    <div class="m-img">
+        <!-- 录取 -->
+        <img src="./lq.jpg" height="100%" width="100%" alt="" />
+    </div>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-		<link rel="stylesheet" href="./style.css" />		
-
-	</head>
-
-	<body>
-
-		<!-- banner -->
-
-        <div class="m-img">
-
-
-              	<!-- 录取 -->
-
-          		<img src="./lq.jpg" height="100%" width="100%" alt="" />
-
-
-        </div>   
-
-        <!-- 考生情况 -->
-
-        <p style="display:none">
-
-			<!--<script src="https://s4.cnzz.com/z_stat.php?id=1260973075&web_id=1260973075" language="JavaScript"></script>-->
-
-		</p>
-
-       <!--  表格 -->
-
-       <div class="m-lq-main">
-
-           <h2 class="m-lq-tite">2024年海南省普通高考录取状态</h2>
-
-           <div class="m-info">
-
-                <ul>
-
-                    <li class="f-fl">考生号：<a>24460100105770</a></li>
-
-                    <li class="f-fl">姓名：<a>马志伟</a></li>
-
-                    <li class="f-fl">性别：<a>男</a></li>
-
-                </ul>
-
-            </div>
-
-            <table class="m-box-table">
-
-                <tr>
-
-                    <td align="right">院校名称：</td>
-
-                    <td align="left"><b>海南打奖大学(01)</b></td>
-
-                </tr>
-
-                <tr>
-
-                    <td align="right">专业名称：</td>
-
-                    <td align="left"><b>07七星彩排列研究</b></td>
-
-                </tr>
-
-                 <tr>
-
-                    <td align="right">批次：</td>
-
-                    <td align="left"><b>本科批</b></td>
-
-                </tr>
-
-                 <tr>
-
-                    <td align="right">科类：</td>
-
-                    <td align="left"><b>普通类</b></td>
-
-                </tr>
-
-                <tr>
-
-                    <td align="right">考生状态：</td>
-
-                    <td align="left">
-
-
-			           		<b class="s-green">录取</b>
-
-
-					</td>
-
-                </tr>
-
-            </table>
-
-            <div class="thetime">更新时间：<em class="s-red">2024-07-27 18:17:09</em></div>
-
+    <!-- 考生情况 -->
+    <p style="display:none">
+        <!--<script src="https://s4.cnzz.com/z_stat.php?id=1260973075&web_id=1260973075" language="JavaScript"></script>-->
+    </p>
+    <!-- 表格 -->
+    <div class="m-lq-main">
+        <h2 class="m-lq-tite">2024年海南省普通高考录取状态</h2>
+        <div class="m-info">
+            <ul>
+                <li class="m-footer f-fl"><a>仅供娱乐，切勿当真</a></li>
+            </ul>
         </div>
-
-        <!-- 说明 -->
-
-
-        <!--  /表格 -->
-
-        <!-- /考生情况 -->
-
-		<!--底部-->
-
-		<footer class="m-footer"> <div class="line"></div>海南省考试局</footer>
-
-		<!--/底部-->
-
-		<script>
-
-            !function(a){function b(){var b=a.document,c=b.documentElement,d=c.getBoundingClientRect().width;document.documentElement.style.fontSize=20*(d/360)+"px"}window.addEventListener("DOMContentLoaded",function(){b()},!1),window.addEventListener("resize",function(){b()}),b()}(window);
-
-		</script>
-
-	</body>
+        <table class="m-box-table">
+            <tr>
+                <td align="right">院校名称：</td>
+                <td align="left"><b id="schoolName"> </b></td>
+            </tr>
+            <tr>
+                <td align="right">专业名称：</td>
+                <td align="left"><b id="majorName"> </b></td>
+            </tr>
+            <tr>
+                <td align="right">批次：</td>
+                <td align="left"><b>本科批</b></td>
+            </tr>
+            <tr>
+                <td align="right">科类：</td>
+                <td align="left"><b>普通类</b></td>
+            </tr>
+            <tr>
+                <td align="right">考生状态：</td>
+                <td align="left">
+                    <b class="s-green">录取</b>
+                </td>
+            </tr>
+        </table>
+        <div class="thetime">更新时间：<em class="s-red">2024-07-27 18:17:09</em></div>
+    </div>
+    <!-- 说明 -->
+    <!-- /表格 -->
+    <!-- /考生情况 -->
+    <!--底部-->
+    <footer class="m-footer">
+        <div class="line"></div>海南省考试局
+    </footer>
+    <!--/底部-->
+    <script>
+        !function (a) {
+            function b() {
+                var b = a.document, c = b.documentElement, d = c.getBoundingClientRect().width; document.documentElement.style.fontSize = 20 * (d / 360) + "px"
+            }
+            window.addEventListener("DOMContentLoaded", function () { b() }, !1), window.addEventListener("resize", function () { b() }), b()
+        }(window);
+    </script>
+</body>
 
 </html>
-
